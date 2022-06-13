@@ -15,10 +15,9 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
   color: rgb(3, 3, 3);
-  padding: 20px;
-  height: 20%;
+  padding: 10px;
+  height: 10%;
 }
 
 main {
@@ -31,7 +30,7 @@ main {
 
 .index_h1 {
 
-  padding-top: 50px;
+  padding-top: 40px;
   font-size: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -39,13 +38,13 @@ main {
 .logo {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center
 }
 
 .logo h1 {
   margin: 15px;
 }
+
 
 .navbar-brand {
   justify-content: space-evenly;
@@ -59,9 +58,14 @@ main {
 
 }
 
+.navbar-collapse {
+
+  display: flex;
+
+}
+
 .nav-link {
-  padding-top: 10px;
-  margin: 10px;
+  padding-top: 100px;
   border-radius: 10px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 1000;
@@ -330,12 +334,23 @@ h3 {
     font-weight: 600;
   }
 
-  .lista li {
-    margin: 8px;
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
   }
 
-  .lista a {
-    font-size: 12px;
+  .navbar>.container,
+  .navbar>.container-fluid,
+  .navbar>.container-lg,
+  .navbar>.container-md,
+  .navbar>.container-sm,
+  .navbar>.container-xl,
+  .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+
   }
 
   .card {
@@ -431,4 +446,47 @@ h3 {
   .icons {
     margin-top: 400px;
   }
+}
+
+@media (max-width: 992px) {
+
+
+  .navbar {
+    font-size: 15px;
+    padding-left: none;
+
+  }
+
+  .nav-link {
+    padding: 0px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: none;
+    justify-items: center;
+  }
+
+  .navbar>.container,
+  .navbar>.container-fluid,
+  .navbar>.container-lg,
+  .navbar>.container-md,
+  .navbar>.container-sm,
+  .navbar>.container-xl,
+  .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+
+  }
+
 }
