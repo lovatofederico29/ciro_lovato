@@ -51,27 +51,46 @@
     <!-- MAIN -->
     <main>
 
-        <div class="contenedor-galeria">
-            <h2 class="h2_galeria">Galeria</h2>
-            <section class="albun">
-                <img src=".//img/ciro-pensando.JPG" alt="ciro pensando" class="galeria__img">
-                <img src=".//img/ciro-hermano.JPG" alt="ciro con su hermano" class="galeria__img">
-                <img src=".//img/ciro-pileta.JPG" alt="ciro pileta" class="galeria__img">
-                <img src=".//img/ciro-contento.JPG" alt="ciro contento" class="galeria__img">
-                <img src=".//img/ciro-acostado.JPG" alt="ciro acostado" class="galeria__img">
-                <img src=".//img/ciro-riendo.jpg" alt="ciero riendo" class="galeria__img">
-                <video src=".//img/blog2.MP4" controls autoplay muted></video>
-                <video src=".//img/blog5.MP4" controls autoplay muted></video>
-                <video src=".//img/blog7.MP4" controls autoplay muted></video>
-            </section>
-
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <h2 class="galeria_h2">Galeria</h2>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="./img/ciro-pensando.JPG" class="d-block w-100" alt="ciro pensando">
+                </div>
+                <div class="carousel-item active">
+                    <img src=".//img/ciro-hermano.JPG" class="d-block w-100" alt="ciro con su hermano">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ciro-riendo.jpg" class="d-block w-100" alt="ciro riendo">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+
+
     </main>
     <!-- FOTTER -->
     <footer class="footer">
         <div>
             <a class="link" href="http://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a class="link" href="http://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/ciro_lovato/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a class="link" href="http://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
