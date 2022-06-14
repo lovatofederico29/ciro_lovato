@@ -20,14 +20,6 @@ header {
   height: 10%;
 }
 
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 100px;
-  height: 70%;
-}
-
 .index_h1 {
 
   padding-top: 40px;
@@ -167,6 +159,15 @@ main {
 }
 
 /* canavan */
+
+.canavan {
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
 .caja h2 {
   padding: 20px;
   text-align: center;
@@ -275,6 +276,7 @@ h3 {
 }
 
 /* donaahora */
+
 .caja1 {
   display: inline;
   font-size: 15px;
@@ -293,9 +295,8 @@ h3 {
 }
 
 .icons {
-  display: inline;
-  position: absolute;
-  margin-top: 20%;
+
+  margin-top: 5%;
   font-size: 80px;
   text-align: center;
 }
@@ -469,6 +470,8 @@ h3 {
   }
 
   /* dona ahora */
+
+
   .h2_donaahora {
     margin-bottom: 3px;
     margin: 20px;
@@ -478,14 +481,9 @@ h3 {
   .p_donaahora {
     font-size: 15px;
   }
-
-  .icons {
-    margin-top: 400px;
-  }
 }
 
 @media (max-width: 992px) {
-
 
   /* index */
 
@@ -526,7 +524,6 @@ h3 {
     justify-content: center;
 
   }
-
 
   /* galeria */
 
