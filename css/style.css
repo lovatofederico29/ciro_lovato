@@ -423,7 +423,7 @@ h3 {
 
   .carousel {
 
-    width: 1000%;
+    width: 100%;
   }
 
 
@@ -525,6 +525,15 @@ h3 {
     align-items: center;
     justify-content: center;
 
+  }
+
+
+  /* galeria */
+
+
+  .carousel {
+
+    width: 60%;
   }
 
   /* dona ahora */
