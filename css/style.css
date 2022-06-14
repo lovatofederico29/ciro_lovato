@@ -487,6 +487,33 @@ h3 {
 
   /* index */
 
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .main_index {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-direction: row;
+  }
+
+
+
+  .index_h1 {
+
+    font-size: 30px;
+    padding: 10px;
+  }
+
   .navbar {
     font-size: 15px;
     padding-left: none;
