@@ -205,7 +205,7 @@ video {
   width: 350px;
   height: 400px;
   border: #0f000f dashed 2px;
-  margin: 20px;
+  margin-top: 3rem;
   border-radius: 10px;
 }
 
@@ -263,6 +263,11 @@ form {
 .p_donaahora {
 
   font-size: 20px;
+}
+
+.donaahora body {
+
+  background: none;
 }
 
 .icons {
