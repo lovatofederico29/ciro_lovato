@@ -337,6 +337,7 @@ form {
   .navbar>.container-xl,
   .navbar>.container-xxl {
     display: flex;
+    flex-direction: column;
     flex-wrap: inherit;
     align-items: center;
     justify-content: center;
