@@ -177,6 +177,11 @@ main {
   transition: 2.5s;
 }
 
+.carousel-inner {
+  width: 100%;
+  height: auto;
+}
+
 .contenedor-galeria {
   font-size: 20px;
 }
@@ -411,8 +416,6 @@ form {
 
   .carousel-inner {
     padding-top: 50px;
-    width: 100%;
-    height: auto;
   }
 
   .albun {
