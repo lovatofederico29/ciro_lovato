@@ -10,29 +10,23 @@
 
 body {
   background-image: url(../img/fondo.jpg);
-
 }
 
 header {
-
   height: 10%;
 }
 
 main {
-
   padding: 100px;
   height: 80%;
-
 }
 
 .h1_index {
-
   font-size: 30px;
   margin-top: 10px;
 }
 
 .container-fluid {
-
   font-size: 15px;
 }
 
@@ -48,13 +42,11 @@ main {
   display: none;
 }
 
-
 .navbar {
   font-size: 18px;
 }
 
 .navbar-collapse {
-
   display: flex;
   justify-content: flex-end;
 }
@@ -65,12 +57,10 @@ main {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 1000;
   margin-left: 10px;
-
 }
 
 .nav-item :hover {
   background-color: #d0d5d6;
-
 }
 
 .navbar-nav {
@@ -94,7 +84,6 @@ main {
 .imagen {
   width: 350;
   height: 400;
-  border: rgb(247, 124, 79);
   margin: 15px;
   border-radius: 15px;
 }
@@ -102,7 +91,7 @@ main {
 .seccion1 {
   width: 350px;
   height: 400px;
-  border: rgb(246, 121, 75) 3px solid;
+  border: rgb(33, 37, 41) 2px solid;
   margin: 10px;
   padding: 10px;
   border-radius: 20px;
@@ -132,7 +121,6 @@ main {
   position: relative;
   padding: 5px;
   text-align: center;
-
 }
 
 .footer i {
@@ -143,15 +131,12 @@ main {
 }
 
 /* canavan */
-
 .canavan_main {
-
   padding-top: 5rem;
   padding-bottom: 12rem;
 }
 
 .h2_canavan {
-
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #3c4ca8;
@@ -161,24 +146,20 @@ main {
 }
 
 .video_canavan {
-
   text-align: center;
   padding-bottom: 2rem;
 }
 
 .accordion-button {
-
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .accordion-body {
-
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 /* galeria */
 .h2_galeria {
-
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #3c4ca8;
@@ -186,9 +167,7 @@ main {
   padding-bottom: 2rem;
 }
 
-
 .carousel-inner {
-
   border-radius: 20px;
 }
 
@@ -203,7 +182,6 @@ main {
 .albun {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 video {
@@ -216,15 +194,12 @@ video {
 }
 
 /* contactenos */
-
 .main_contactenos {
-
   display: flex;
   justify-content: space-around;
 }
 
 .h2_contactanos {
-
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #3c4ca8;
 }
@@ -250,7 +225,6 @@ form {
 }
 
 /* donaahora */
-
 .caja1 {
   display: inline;
   font-size: 15px;
@@ -262,22 +236,17 @@ form {
 
 .h2_donaahora {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
   color: #3c4ca8;
   margin-bottom: 20px;
 }
 
 .p_donaahora {
-
-  font-size: 20px;
-}
-
-.donaahora body {
-
-  background: none;
+  font-size: 1rem;
+  padding-bottom: 2rem;
 }
 
 .icons {
-
   margin-top: 5%;
   font-size: 80px;
   text-align: center;
@@ -292,7 +261,6 @@ form {
   }
 
   main {
-
     padding: 5px;
     height: 80%;
   }
@@ -305,7 +273,6 @@ form {
   }
 
   .index_h1 {
-
     font-size: 30px;
     padding: 10px;
   }
@@ -317,10 +284,6 @@ form {
 
   .logo h1 {
     text-align: center;
-  }
-
-  .navbar-brand {
-    display: none;
   }
 
   .navbar {
@@ -369,8 +332,10 @@ form {
 
   .p {
     margin: 5px;
+    text-align: left;
+    height: auto;
     width: auto;
-    font-size: 12px;
+    font-size: 1rem;
   }
 
   .footer i {
@@ -379,15 +344,19 @@ form {
   }
 
   /* canavan */
-
   .canavan_main {
-
     padding-top: 1rem;
     padding-bottom: 6rem;
   }
 
-  .h2_canavan {
+  iframe {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
 
+  .h2_canavan {
     font-size: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -404,7 +373,6 @@ form {
 
   /* galeria */
   .h2_galeria {
-
     font-size: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -413,19 +381,18 @@ form {
   .carousel-inner {
     padding-top: 50px;
     width: 100%;
+    height: auto;
   }
 
   .albun {
-
     grid-template-columns: none;
     justify-items: center;
     padding-top: 10px;
-
   }
 
   video {
     width: 200px;
-    height: 150px;
+    height: 300px;
     border: #0f000f dashed 1px;
     margin: 10px;
     padding-top: 10px;
@@ -446,7 +413,6 @@ form {
   }
 
   input.campo {
-
     width: 15rem;
   }
 
@@ -454,7 +420,6 @@ form {
     font-size: 10px;
     padding: 5px;
     margin: 5px;
-
   }
 
   /* dona ahora */
@@ -464,6 +429,6 @@ form {
   }
 
   .p_donaahora {
-    font-size: 10px;
+    font-size: 1rem;
   }
 }
