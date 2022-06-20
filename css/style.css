@@ -160,6 +160,12 @@ main {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.video_canavan {
+
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
 .accordion-button {
 
   font-size: 18px;
