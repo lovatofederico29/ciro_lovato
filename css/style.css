@@ -173,12 +173,7 @@ main {
   padding-bottom: 2rem;
 }
 
-.carousel-inner {
-  border-radius: 20px;
-}
-
 .carousel-item {
-  width: 100%;
   transition: 2.5s;
 }
 
